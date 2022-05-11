@@ -41,4 +41,3 @@ def range(a, b=None, c=None):
     while x < high:
         yield x
         x += 1
-
