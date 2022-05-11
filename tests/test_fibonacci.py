@@ -117,3 +117,31 @@ def test_fib_yield_5():
 def test_fib_yield_6():
     for f,i in zip(fib_yield(),range(100000)):
         assert True
+
+if __name__ == '__main__':
+    test_FibIter_1()
+    test_FibIter_2()
+    test_FibIter_3()
+    test_FibIter_4()
+    test_FibIter_5()
+
+    test_Fib_repr_1()
+    test_Fib_repr_2()
+    test_Fib_str_1()
+    test_Fib_str_2()
+    test_Fib_1()
+    test_Fib_2()
+    test_Fib_3()
+    test_Fib_4()
+    test_Fib_5()
+    test_Fib_6()
+
+    test_fib_yield_0()
+    test_fib_yield_1()
+    test_fib_yield_2()
+    test_fib_yield_3()
+    test_fib_yield_4()
+    test_fib_yield_5()
+    test_fib_yield_6()
+
+    print("All tests passed!")
