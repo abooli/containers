@@ -36,7 +36,7 @@ def range(a, b=None, c=None):
         (low, high) = (a, b)
     else:
         (low, high, step) = (a, b, c)
-    
+
     x = low
     while x < high:
         yield x
