@@ -17,7 +17,6 @@ def test_range_3():
 def test_range_4():
     assert list(containers.range.range(-1)) == list(range(-1))
 
-
 def test_range2_1():
     assert list(containers.range.range(0,10)) == list(range(0,10))
 
@@ -63,3 +62,27 @@ def test_range3_8():
 
 def test_range3_9():
     assert list(containers.range.range(0,10,-1)) == list(range(0,10,-1))
+
+if __name__=='__main__':
+    test_range()
+    test_range_1()
+    test_range_2()
+    test_range_3()
+    test_range_4()
+    test_range2_1()
+    test_range2_2()
+    test_range2_3()
+    test_range2_4()
+    test_range2_5()
+    test_range2_6()
+    test_range3_1()
+    test_range3_2()
+    test_range3_3()
+    test_range3_4()
+    test_range3_5()
+    test_range3_6()
+    test_range3_7()
+    test_range3_8()
+    test_range3_9()
+    print("All tests passed!")
+

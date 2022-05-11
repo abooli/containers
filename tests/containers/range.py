@@ -21,7 +21,7 @@ def range(a, b=None, c=None):
         (low, high, step) = (a, b, c)
 
     if low > high:
-        if step >= 0:
+        if step >=0:
             return
         x = low
         while x > high:
